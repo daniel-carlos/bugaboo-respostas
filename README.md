@@ -44,7 +44,8 @@ Inicializar objetos no Awake pode dar problemas se esse objeto precisa interagir
 1) Usar object pooling para objectos que são instanciados e destruídos com frequência (exemplo: projéteis)
 
 1) Carregar cenas em background (SceneManager.LoadSceneAsync)
-Usar o profiler para encontrar gargalos.
+
+1) Usar o profiler para encontrar gargalos.
 
 
 ## 5) Como você abordaria o problema de sincronização de estados em um jogo multiplayer?
